@@ -1,6 +1,6 @@
 *{
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -40,8 +40,34 @@ html {
     }
 
 
+    nav {  
+        margin: 0 auto;
+        background-color: #c9dafc;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color: violet;
+    }
+
+    a:focus {
+        color: pink;
+    }
+
     h1 {
         color: rgb(181, 106, 212);
+        text-align: center;
         }
 
 
@@ -49,9 +75,6 @@ html {
         color: darkblue;
     }
 
-    nav {
-        max-width: 
-    }
 
 button {
    color: blue;
